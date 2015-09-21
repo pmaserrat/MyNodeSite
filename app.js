@@ -21,8 +21,9 @@ app.use(stylus.middleware(
 ))
 app.use(express.static(__dirname + '/public'))
 app.get('/', function (req, res) {
-  res.render('index',
-  { title : 'Home' }
+	res.sendFile(path.join(__dirname + '/index.html'));
+	res.render('index',
+  { title : "Paul Maserrat's awesome site" }
   )
 })
 app.listen(3000)
