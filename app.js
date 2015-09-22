@@ -22,7 +22,7 @@ app.use(stylus.middleware(
 app.use(express.static(__dirname + '/public'))
 app.get('/', function (req, res) {
   res.render('index',
-  { title : 'Home' }
+  { title : "Paul Maserrat's Awesome Site" }
   )
 })
 app.listen(3000)
