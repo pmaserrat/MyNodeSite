@@ -84,7 +84,7 @@ footer {
   overflow-x: hidden;
   overflow-y: auto;
 }
-.parallax__layer {
+.parallax_layer {
   padding: 100vh 0;
   position: absolute;
   top: 0;
@@ -92,11 +92,11 @@ footer {
   bottom: 0;
   left: 0;
 }
-.parallax__layer_base {
+.parallax_layer_base {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
 }
-.parallax__layer_back {
+.parallax_layer_back {
    -webkit-transform: translateZ(-1px);
    transform: translateZ(-1px);
 }
@@ -132,7 +132,7 @@ footer {
 }
 
 .content {
-    margin-top: 100vh;
+    margin-top: 35vh;
     width: 100%;
     height: 800px;
     background-color: #e67e22;
