@@ -126,20 +126,30 @@ footer {
     font-size:35px;
 }
 
+.title4{
+	position: absolute;
+    left: 50%;
+    top: 350%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size:35px;
+}
+
 .text{
 	color:black;
+	text-shadow: 1px 1px #f1fffd;
 }
 
 .content {
-    margin-top: 200vh;
+    margin-top: 150vh;
     width: 100%;
-    height: 800px;
-    background-color: #e67e22;
+    height: 1000px;
+    background-color: #095ddd;
 }
 
 .backgroundImage {
     width: 100%;
-    height: 175%;
+    height: 150%;
 }
 
 .parallax_layer_back { transform: translateZ(-1px) scale(2); }
