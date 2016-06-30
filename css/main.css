@@ -85,7 +85,6 @@ footer {
   overflow-y: auto;
 }
 .parallax_layer {
-  padding: 100vh 0;
   position: absolute;
   top: 0;
   right: 0;
@@ -132,7 +131,7 @@ footer {
 }
 
 .content {
-    margin-top: 35vh;
+    margin-top: 200vh;
     width: 100%;
     height: 800px;
     background-color: #e67e22;
@@ -140,7 +139,7 @@ footer {
 
 .backgroundImage {
     width: 100%;
-    height: auto;
+    height: 175%;
 }
 
 .parallax_layer_back { transform: translateZ(-1px) scale(2); }
